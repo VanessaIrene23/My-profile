@@ -1,0 +1,28 @@
+.flex-container{
+    width: 600px;
+    display: flex;
+    background-color: aqua;
+    gap: 10px;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+}
+.box{
+    flex: 1;
+}
+.box-1{
+    background-color: blue;
+    flex: 2;
+    /* order: 3; */
+}
+.box-2{
+    background-color: yellow;
+    /* order: 1; */
+}
+.box-3{
+    background-color: blueviolet;
+    order: 4;
+}
+.box-4{
+    background-color: rgba(81, 234, 4, 0.904);
+    order: 2;
+}
